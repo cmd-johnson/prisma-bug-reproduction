@@ -1,0 +1,10 @@
+{
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "prisma generate && prisma migrate deploy"
+  },
+  "dependencies": {
+    "@prisma/client": "^3.11.1",
+    "prisma": "^3.11.1"
+  }
+}

@@ -1,0 +1,5 @@
+-- CreateTable
+CREATE TABLE "Test" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "test" REAL NOT NULL
+);
